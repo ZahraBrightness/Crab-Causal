@@ -68,9 +68,3 @@ Expected runtime: ~20 minutes (bootstrap is the bottleneck).
 **Requirements**: numpy, pandas, matplotlib, seaborn, statsmodels, scipy, nbformat, jupyter/nbconvert. All available in the `.venv` environment.
 
 **Data**: `final_merged_with_region.csv` must be in the working directory (341,202 rows, 17 columns).
-
-## Resume Bullets
-
-> "Designed quasi-experimental study using WDFW Dungeness crab survey (341K obs, 11 stations); adjusted depth treatment APE = +6.6 pp [bootstrap 95% CI: −12.8, +17.6]; diagnosed bad-control over-adjustment via 8-specification sensitivity curve; E-value = 3.6 quantifies robustness to unmeasured confounders"
-
-> "Identified 11/16 imbalanced covariates (|SMD| > 0.1) driven by region concentration; applied common-support restriction to Port Townsend Bay + Hood Canal; demonstrated that 163K observations reduce to 11 independent station clusters under correct bootstrap resampling"
